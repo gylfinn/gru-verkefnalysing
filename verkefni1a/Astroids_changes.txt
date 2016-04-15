@@ -1,0 +1,68 @@
+
+H:\>fc C:\Users\1310903079\Downloads\Verkefni1_GitogGithub\Verkefni1_GitogGithub
+\V1a_Git\game_new.js C:\Users\1310903079\Downloads\Verkefni1_GitogGithub\Verkefn
+i1_GitogGithub\V1a_Git\game_old.js
+Comparing files C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GI
+TOGGITHUB\V1A_GIT\game_new.js and C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGG
+ITHUB\VERKEFNI1_GITOGGITHUB\V1A_GIT\GAME_OLD.JS
+
+***** C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GITOGGITHUB\
+V1A_GIT\game_new.js
+KEY_CODES = {
+  13: 'enter',
+  32: 'space',
+***** C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GITOGGITHUB\
+V1A_GIT\GAME_OLD.JS
+KEY_CODES = {
+  32: 'space',
+*****
+
+***** C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GITOGGITHUB\
+V1A_GIT\game_new.js
+  37: 'left',
+  39: 'right',
+***** C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GITOGGITHUB\
+V1A_GIT\GAME_OLD.JS
+  37: 'left',
+  38: 'up',
+  39: 'right',
+*****
+
+***** C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GITOGGITHUB\
+V1A_GIT\game_new.js
+
+    if (KEY_STATUS.spacr) {
+      var rad = ((this.rot-90) * Math.PI)/180;
+***** C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GITOGGITHUB\
+V1A_GIT\GAME_OLD.JS
+
+    if (KEY_STATUS.up) {
+      var rad = ((this.rot-90) * Math.PI)/180;
+*****
+
+***** C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GITOGGITHUB\
+V1A_GIT\game_new.js
+    }
+    if (KEY_STATUS.enter) {
+      if (this.delayBeforeBullet <= 0) {
+***** C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GITOGGITHUB\
+V1A_GIT\GAME_OLD.JS
+    }
+    if (KEY_STATUS.space) {
+      if (this.delayBeforeBullet <= 0) {
+*****
+
+***** C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GITOGGITHUB\
+V1A_GIT\game_new.js
+      if (KEY_STATUS.space || window.gameStart) {
+        KEY_STATUS.space = false; // hack so we don't move right away
+        window.gameStart = false;
+***** C:\USERS\1310903079\DOWNLOADS\VERKEFNI1_GITOGGITHUB\VERKEFNI1_GITOGGITHUB\
+V1A_GIT\GAME_OLD.JS
+      if (KEY_STATUS.space || window.gameStart) {
+        KEY_STATUS.space = false; // hack so we don't shoot right away
+        window.gameStart = false;
+*****
+
+
+H:\>
